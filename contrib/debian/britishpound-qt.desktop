@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=britishpound
+Comment=britishpound P2P Cryptocurrency
+Comment[fr]=britishpound, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=britishpound, eşten eşe kriptografik sanal para birimi
+Exec=britishpound-qt %u
+Terminal=false
+Type=Application
+Icon=britishpound128
+MimeType=x-scheme-handler/britishpound;
+Categories=Office;Finance;

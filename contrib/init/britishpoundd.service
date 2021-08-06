@@ -1,0 +1,26 @@
+[Unit]
+Description=britishpound's distributed currency daemon
+After=network.target
+
+[Service]
+User=britishpound
+Group=britishpound
+
+Type=forking
+PIDFile=/var/lib/britishpoundd/britishpoundd.pid
+
+ExecStart=/usr/bin/britishpoundd -daemon -pid=/var/lib/britishpoundd/britishpoundd.pid \
+          -conf=/etc/britishpound/britishpound.conf -datadir=/var/lib/britishpoundd
+
+ExecStop=-/usr/bin/britishpound-cli -conf=/etc/britishpound/britishpound.conf \
+         -datadir=/var/lib/britishpoundd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

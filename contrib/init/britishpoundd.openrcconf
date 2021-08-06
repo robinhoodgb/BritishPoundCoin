@@ -1,0 +1,26 @@
+# /etc/conf.d/britishpoundd: config file for /etc/init.d/britishpoundd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/britishpound/britishpound.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/britishpoundd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/britishpoundd.pid"
+
+# Where to write britishpoundd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/britishpoundd"
+
+# User and group to own britishpoundd process
+#BITCOIND_USER="britishpound"
+#BITCOIND_GROUP="britishpound"
+
+# Path to britishpoundd executable
+#BITCOIND_BIN="/usr/bin/britishpoundd"
+
+# Nice value to run britishpoundd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

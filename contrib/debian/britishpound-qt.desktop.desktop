@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=britishpound
+Comment=britishpound P2P Cryptocurrency
+Exec=britishpound-qt %u
+Terminal=false
+Type=Application
+Icon=britishpound128
+MimeType=x-scheme-handler/britishpound;
+Categories=Office;Finance;
+Name[en_US]=britishpound-qt.desktop

@@ -3,6 +3,7 @@
 Links
 =============
 Project website: http://www.britishpoundcoin.co.uk/
+
 Explorer: http://explorer.britishpoundcoin.co.uk/
 
 
@@ -14,7 +15,9 @@ Explorer: http://explorer.britishpoundcoin.co.uk/
 * MN Reward
 
 British Pound Coin is a community coin, created in anonimity with only 1 milion coins pre-mine in order to setup the network and a total of 66 650 000 milions to be ever in existence, it is a decentralised coin free to be explored by all the community with no collateral interest from other parties, all the development and promotion of the coin stay on the community power, there is no team involved, the community is the team. Because publishing on exchanges require funds you are free to donate any amount of LTC or BTC to these accounts to support the development:
+
 LTC donation account: LM3qZd3UKnfbFWfxyUPLjUuNBZuzPqrj1Z
+
 BTC donation account: 1PoNdCDc6A4jeA1XfBBamwWSJgtRRq24W1
 
 The British Pound Coin is a decentralized peer-to-peer banking financial platform to replace the classic British Pound Coin GBP in the cryptocurrency market, created under an open source license, featuring a built-in cryptocurrency, end-to-end encrypted messaging and decentralized marketplace. The decentralized network aims to provide anonymity and privacy for everyone through a simple user-friendly interface by taking care of all the advanced cryptography in the background.
